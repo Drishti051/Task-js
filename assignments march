@@ -1,0 +1,63 @@
+# Task-js
+//Assignment 1//
+function sum(a,b){
+    var t=b+a;
+    return t;
+}
+function diff(a,b){
+    var t=b-a;
+    return t;
+}
+function product(a,b){
+    var t=b*a;
+    return t;
+}
+function division(a,b){
+    var t=b/a;
+    return t;
+}
+g = sum(8,7);
+console.log(g);
+h = diff(4,2);
+console.log(h);
+m= product(20,2);
+console.log(m);
+n= division(60,2);
+console.log(n);
+
+
+//Assignment 2 create (a+b)square2 function//
+
+
+
+function wholeSquare(a,b){
+	let result = (a*a)+(b*b)+2*(a*b)
+	return result;
+	
+}
+value = wholeSquare();
+console.log(value);
+
+
+
+
+//Assignment 3 :Print fibonnaci Series//
+
+
+function fibonacci(number){
+    var t1=0;
+    var t2=1;
+    var t3;
+    console.log(t1);
+    console.log(t2);
+    for(var i=2;i<number;i++)
+    {
+        t3=t1+t2;
+        console.log(t3);
+        t1=t2;
+        t2=t3;
+    }
+}
+fibonacci(20);
+
+
